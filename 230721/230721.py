@@ -1,3 +1,5 @@
+#BOJ 1094
+
 x = int(input())
 stick = 64                                          # 막대기의 길이
 stick_list = []                                     
