@@ -1,4 +1,4 @@
-#Try1
+# #Try1
 
 # T = int(input())
 # route = []
@@ -10,14 +10,14 @@
 #     else:
 #         for i in range(M):
 #             if M - i >= N:
-#                 route.append((N, M - i))
+#                     route.append((N, M - i))
 #             else:
 #                 continue
 #         bridge(N-1, M-1)
 #         return N, M
 
 # for _ in range(T):
-#     N, M = map(int, inputx().split())
+#     N, M = map(int, input().split())
 #     bridge(N, M)
 #     print(len(route))
 #     route = []
