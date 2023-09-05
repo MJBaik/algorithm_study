@@ -27,4 +27,4 @@ while n < N:
 
 for i in arr:
     print(i)
-print(arr[r][c])
+print(arr[r][c])    
