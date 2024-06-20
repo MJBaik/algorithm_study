@@ -1,4 +1,4 @@
-// 1로 만들기(DP)
+// 1로 만들기 (DP)
 // https://www.acmicpc.net/problem/1463
 
 const file = process.platform === "linux" ? "dev/stdin" : "./input.txt";

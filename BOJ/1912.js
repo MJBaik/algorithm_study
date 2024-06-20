@@ -1,4 +1,4 @@
-// 연속합
+// 연속합 (DP)
 // https://www.acmicpc.net/problem/1912
 
 const file = process.platform === "linux" ? "dev/stdin" : "./input.txt";
