@@ -10,40 +10,6 @@ let input = require("fs")
   .split("\n")
   .map((e) => e.trim());
 
-class Node {
-  constructor(item) {
-    this.node = item;
-    this.next = null;
-  }
-}
-
-class Queue {
-  constructor() {
-    this.head = null;
-    this.tail = null;
-    this.size = 0;
-  }
-
-  enqueue(item) {
-    const node = new Node(item);
-    if (this.size === 0) {
-      this.head = node;
-    } else {
-      this.tail.next = node;
-    }
-    this.tail = node;
-    this.size++;
-  }
-
-  dequeue() {
-    if (this.size === 0) return null;
-    const ret = this.head.node;
-    this.head = this.head.next;
-    this.size--;
-    return ret;
-  }
-}
-
 const t = parseInt(input.shift());
 let p = 0;
 const ans = [];
